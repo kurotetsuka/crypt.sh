@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CRYPTSH_safe_dev="/dev/mmcblk0p2"
-CRYPTSH_vault_dev="/dev/sdb"
+CRYPTSH_vault_dev="/dev/sdb1"
 CRYPTSH_vault_key="/mnt/safe/keys/crypt/zero"
 CRYPTSH_open_status="\e[1;36m open \e[0m"
 CRYPTSH_closed_status="\e[1;31mclosed\e[0m"
